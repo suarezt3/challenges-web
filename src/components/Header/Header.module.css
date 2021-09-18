@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.title {
+    font-weight: 900;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: #3C8DAD;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+}

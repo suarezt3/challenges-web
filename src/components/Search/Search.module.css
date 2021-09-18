@@ -1,0 +1,17 @@
+.box_search {
+    display: flex;
+}
+
+.search {
+    margin-left: 30px;
+    height: 30px;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .box_search {
+        margin-right: 35px;
+    }
+}

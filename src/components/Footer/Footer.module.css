@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    position: fixed;
+    bottom: 10px;
+    left: 96%;
+}
+
+
+
+
+
+.icon i {
+    font-size: 2rem;
+}
+
+.footer p {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+    .icon {
+        bottom: 35px;
+        left: 91%;
+    }
+
+    .footer{
+        width: 95%;
+    }
+}
