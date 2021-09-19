@@ -1,5 +1,6 @@
 import './App.css';
-import { BoxProjects } from './components/BoxProjects/BoxProjects';
+import BoxProjects from './components/BoxProjects/BoxProjects';
+
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 

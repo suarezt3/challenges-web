@@ -1,8 +1,9 @@
 import React from 'react';
 import style from './Challenges.module.css'
 
-export const Challenges = ({name, link, imagen}) => {
+export const Challenges = ({data}) => {
 
+    const{name, imagen, link} = data
     
 
     return (
@@ -15,3 +16,5 @@ export const Challenges = ({name, link, imagen}) => {
         </div>
     )
 }
+
+export default Challenges
